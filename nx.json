@@ -39,7 +39,7 @@
     ],
     "sharedGlobals": [
       {
-        "runtime": "cat .env.local"
+        "runtime": "cat file.txt"
       }
     ]
   },
