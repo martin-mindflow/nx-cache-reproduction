@@ -37,7 +37,11 @@
       "!{projectRoot}/.eslintrc.json",
       "!{projectRoot}/eslint.config.js"
     ],
-    "sharedGlobals": []
+    "sharedGlobals": [
+      {
+        "runtime": "cat .env.local"
+      }
+    ]
   },
   "generators": {
     "@nx/react": {
